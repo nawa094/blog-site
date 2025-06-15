@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 // Replace these values:
 const organizationName = "nawa094"; // Or org name
-const projectName = "blog-site"; // Repo name
+const projectName = "nawa094.github.io"; // Repo name
 
 const config: Config = {
   title: "Nawa Mumbwe",
@@ -21,16 +21,16 @@ const config: Config = {
   url: `https://${organizationName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/blog-site/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName, // Usually your GitHub org/user name.
   projectName, // Usually your repo name.
-
+  deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
+  trailingSlash: false,
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
