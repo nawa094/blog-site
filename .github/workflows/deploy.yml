@@ -5,6 +5,11 @@ on:
     branches: [main]
   workflow_dispatch:
 
+    # 👇 Add this to grant write permissions to the token
+permissions:
+  contents: write # Allows pushing to gh-pages branch
+  pages: write # Needed for GitHub Pages
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
