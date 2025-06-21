@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog_site=self.webpackChunkmy_blog_site||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Setting Up My Docusaurus Blog: Lessons Learned","permalink":"/blog/2025/06/15/setting-up-docusaurus","unlisted":false,"date":"2025-06-15T00:00:00.000Z"}]}')}}]);
