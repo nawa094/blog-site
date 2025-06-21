@@ -1,0 +1,55 @@
+/* .hero {
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #3a86ff, #ff3a6e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a,
+.button {
+  transition: color 0.2s, opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.navbar__toggle {
+  margin-right: 1rem;
+}
+
+[data-theme="dark"] .navbar__toggle svg {
+  color: var(--ifm-color-primary);
+}
+
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .navbar__items {
+    gap: 0.5rem;
+  }
+} */

@@ -1,19 +1,25 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
+# Blog Tag Definitions
 docusaurus:
   label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+  description: Posts about Docusaurus configuration and customization
+  permalink: /blog/tags/docusaurus
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+github-pages:
+  label: GitHub Pages
+  description: Deployment guides and troubleshooting for GitHub Pages
+  permalink: /blog/tags/github-pages
+
+webdev:
+  label: Web Development
+  description: General web development concepts and tools
+  permalink: /blog/tags/webdev
+
+documentation:
+  label: Documentation
+  description: Technical writing and docs-as-code approaches
+  permalink: /blog/tags/documentation
+
+troubleshooting:
+  label: Troubleshooting
+  description: Debugging stories and solution guides
+  permalink: /blog/tags/troubleshooting

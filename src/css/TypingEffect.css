@@ -1,0 +1,21 @@
+.typing-effect {
+  font-size: 2rem; /* equivalent to text-4xl */
+  font-weight: bold;
+  color: #4f46e5; /* similar to Tailwind's indigo-600 */
+}
+
+@media (prefers-color-scheme: dark) {
+  .typing-effect {
+    color: #818cf8; /* similar to Tailwind's indigo-400 */
+  }
+}
+
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
